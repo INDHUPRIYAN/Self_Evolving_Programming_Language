@@ -1,0 +1,65 @@
+unik/                       # Root folder for the language
+│
+├── bin/                    # Executable files / CLI
+│   └── unik                # The main command-line interface
+│
+├── src/                    # Source code of Unik (Python-based implementation)
+│   ├── lexer/              # Tokenizer
+│   │   └── lexer.py
+│   │
+│   ├── parser/             # Parser & AST builder
+│   │   └── parser.py
+│   │
+│   ├── ast/                # AST node definitions
+│   │   └── nodes.py
+│   │
+│   ├── interpreter/        # AST interpreter / runtime
+│   │   └── interpreter.py
+│   │
+│   ├── compiler/           # Optional: compiler to bytecode / native
+│   │   └── compiler.py
+│   │
+│   ├── repl/               # Interactive console with AI suggestions
+│   │   └── repl.py
+│   │
+│   ├── stdlib/             # Standard library
+│   │   ├── math.py         # Math: abs, sqrt, pow, etc.
+│   │   ├── string.py       # String: len, upper, lower, etc.
+│   │   ├── collections.py  # Lists, dicts, sets, DSA helpers
+│   │   ├── ai.py           # AI/ML utilities: linear regression, KMeans
+│   │   ├── plot.py         # Visualization: charts, plots
+│   │   └── backend.py      # HTTP requests, DB connectors
+│   │
+│   └── main.py             # Entry point to run scripts or start REPL
+│
+├── tests/                  # Unit tests
+│   ├── test_lexer.py
+│   ├── test_parser.py
+│   ├── test_interpreter.py
+│   ├── test_stdlib.py
+│   └── test_repl.py
+│
+├── examples/               # Example programs demonstrating features
+│   ├── basic/
+│   │   ├── hello_world.unik
+│   │   ├── arithmetic.unik
+│   │   └── loops.unik
+│   ├── oop/
+│   │   ├── classes.unik
+│   │   └── inheritance.unik
+│   ├── backend/
+│   │   ├── db_query.unik
+│   │   └── api_request.unik
+│   └── ai/
+│       ├── linear_regression.unik
+│       └── clustering.unik
+│
+├── docs/                   # Documentation
+│   ├── UnikLanguageSpec.md  # Full syntax, keywords, operators, examples
+│   ├── StandardLibrary.md   # Built-in functions and usage
+│   ├── REPLGuide.md         # REPL usage, AI hints
+│   └── IDEGuide.md          # IDE setup, auto-complete, debugging
+│
+├── README.md               # Project overview
+├── LICENSE                 # License
+└── setup.py / pyproject.toml  # Packaging for pip / installer

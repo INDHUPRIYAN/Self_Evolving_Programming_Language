@@ -1,0 +1,6 @@
+x = 2
+alter x {
+    1: { give "One" }
+    2: { give "Two" }
+    default: { give "Other" }
+}

@@ -1,0 +1,4 @@
+x = 10
+y = 3
+give "Sum:", x + y
+give "Power:", x ** y

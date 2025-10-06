@@ -1,0 +1,6 @@
+# math_extra.unik
+func cube(x) -> x * x * x
+
+# main.unik
+import math_extra
+give math_extra.cube(3)  # 27

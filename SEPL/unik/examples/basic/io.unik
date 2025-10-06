@@ -1,0 +1,11 @@
+name = ask "Enter your name: "
+give "Hello ", name
+
+choice = ask
+give "You typed: ", choice
+
+# File operations
+text = askfile "data.txt"
+give "File contents: ", text
+
+givefile "out.txt", "This is Unik output!"

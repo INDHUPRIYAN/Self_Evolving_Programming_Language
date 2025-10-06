@@ -1,0 +1,16 @@
+# Range loop
+loop i in 0..5 { give i }
+
+# With step
+loop i in 0..10, 2 { give i }
+
+# Repeat-until
+x = 3
+repeat x > 0 {
+    give "Counting down:", x
+    x = x - 1
+}
+
+# For-each
+nums = [1, 2, 3]
+loop n in nums { give "Num:", n }

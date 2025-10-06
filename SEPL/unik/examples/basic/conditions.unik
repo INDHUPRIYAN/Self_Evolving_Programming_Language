@@ -1,0 +1,10 @@
+x = 5
+# Classic if-else
+if x > 10 {
+    give "Positive"
+} else {
+    give "Non-positive"
+}
+
+# Inline if
+if x == 5 -> give "x is five"
