@@ -1,4 +1,0 @@
-main:
-    x = ask -> x
-    y = ask -> y
-    give x + " and " + y

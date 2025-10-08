@@ -1,7 +1,0 @@
-x = 10
-y = 20
-
-aik @{"Write a function to add x and y and print result"}
-# Internally expanded to:
-# func add(a, b) -> a + b
-# give add(x, y)

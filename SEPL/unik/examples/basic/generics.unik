@@ -1,6 +1,0 @@
-func identity<T>(val: T) -> T {
-    ret val
-}
-
-give identity(42)       # 42
-give identity("unik")   # unik

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unik Playground</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.css">
+  <style>
+    .CodeMirror { height: 300px; border: 1px solid #ddd; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-indigo-600 text-white py-12 text-center">
+    <h1 class="text-4xl font-bold">Unik Playground</h1>
+    <p class="mt-2">Try Unik code instantly in your browser</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto py-12 px-6">
+    <textarea id="unik-editor"># Hello World in Unik
+greet = func(name) {
+  print("Hello", name, "from Unik!")
+}
+greet("World")</textarea>
+
+    <button id="runBtn" class="mt-4 px-6 py-2 bg-indigo-600 text-white rounded">Run</button>
+    <pre id="output" class="mt-4 bg-gray-900 text-green-400 p-4 rounded"></pre>
+  </main>
+
+  <script>
+    const editor = CodeMirror.fromTextArea(document.getElementById("unik-editor"), {
+      lineNumbers: true,
+      mode: "javascript" // placeholder; replace with unik mode later
+    });
+
+    document.getElementById("runBtn").addEventListener("click", () => {
+      const code = editor.getValue();
+      document.getElementById("output").innerText = "Simulated Output: Hello World!";
+      // TODO: Connect with real unik compiler backend
+    });
+  </script>
+</body>
+</html>

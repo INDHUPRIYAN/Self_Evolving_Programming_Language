@@ -1,3 +1,0 @@
-main:
-    name = ask "Enter your name:" -> name
-    give "Hello " + name

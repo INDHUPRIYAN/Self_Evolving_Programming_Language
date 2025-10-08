@@ -1,4 +1,0 @@
-main:
-    greet = "Hello"
-    target = "World"
-    give greet + " " + target + "!"

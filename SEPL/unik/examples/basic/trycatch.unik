@@ -1,7 +1,0 @@
-try {
-    risky = 10 / 0
-} catch e {
-    give "Error: ", e.message
-} finally {
-    give "Cleanup finished"
-}

@@ -1,9 +1,0 @@
-main:
-    a = ask "Enter a number:" -> a
-    if: a % 4 == 0
-        if: a % 400 == 0
-            give "Leap year"
-        else
-            give "Not a leap year"
-    else
-        give "Not a leap year"

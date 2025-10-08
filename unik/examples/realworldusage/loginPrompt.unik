@@ -1,0 +1,8 @@
+username = ask "Enter username: "
+password = ask "Enter password: "
+
+if username == "admin" && password == "1234" {
+    give "Login successful!"
+} else {
+    give "Invalid credentials."
+}

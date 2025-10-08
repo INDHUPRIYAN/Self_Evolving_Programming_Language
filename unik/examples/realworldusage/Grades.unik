@@ -1,0 +1,13 @@
+marks = ask "Enter your marks: "
+
+if marks >= 90 {
+    give "Grade: A+"
+} else if marks >= 75 {
+    give "Grade: A"
+} else if marks >= 60 {
+    give "Grade: B"
+} else if marks >= 40 {
+    give "Grade: C"
+} else {
+    give "Grade: F - Fail"
+}

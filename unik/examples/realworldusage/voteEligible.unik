@@ -1,0 +1,7 @@
+age = ask "Enter your age: "
+
+if age >= 18 {
+    give "You are eligible to vote."
+} else {
+    give "You are not eligible to vote yet."
+}

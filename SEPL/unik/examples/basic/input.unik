@@ -1,8 +1,0 @@
-name = ask "Enter your name: "
-give "Hello ", name
-
-name = ask "Enter your name: "
-give "Hello ", name
-
-choice = ask
-give "You typed: ", choice

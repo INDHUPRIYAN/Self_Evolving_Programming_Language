@@ -1,5 +1,0 @@
-main:
-    a = ask "Enter your a:" -> a
-    b = ask "Enter your b:" -> b
-    sum = a + b
-    give sum
