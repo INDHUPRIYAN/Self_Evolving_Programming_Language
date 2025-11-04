@@ -1,0 +1,7 @@
+rows = 5
+loop i in 1..rows {
+    loop j in 1..i {
+        give "*",
+    }
+    give ""  # newline
+}

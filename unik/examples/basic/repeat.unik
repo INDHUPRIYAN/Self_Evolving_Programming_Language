@@ -1,0 +1,18 @@
+# Repeat-until
+x = 3
+repeat x > 0 {
+    give "Counting down:", x
+    x = x - 1
+}
+
+SAMPLE OUTPUT
+
+unik>> x = 3
+unik>> repeat x > 0 {
+....>>     give "Counting down:", x
+....>>     x = x - 1
+....>> }
+Counting down: 3
+Counting down: 2
+Counting down: 1
+unik>>

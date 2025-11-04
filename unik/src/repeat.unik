@@ -1,0 +1,4 @@
+repeat x > 0 {
+    give "Counting down:", x
+    x = x - 1
+}

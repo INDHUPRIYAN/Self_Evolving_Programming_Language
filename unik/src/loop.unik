@@ -1,0 +1,5 @@
+x = 3
+loop i in 0..100, 5{
+    give i
+}
+

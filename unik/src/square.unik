@@ -1,0 +1,13 @@
+size = 5
+loop i in 1..size {
+    loop j in 1..size {
+        temp = (i == 1 or i == size or j == 1 or j == size)
+        loop k in 0..0 {  # dummy loop to simulate "if"
+            give "*",
+        } repeat temp > 0
+        loop k in 0..0 {
+            give "",
+        } repeat temp == 0
+    }
+    give ""
+}
